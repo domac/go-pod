@@ -9,25 +9,14 @@ go-pod是一个使用方便的goroutinue池调度工具库, 目的是为了防�
 - 支持自定义协程池大小
 - 支持自定义作业调度间隔
 
-
-## 具体实例
-
-本库已为下面的工具提供调度支持
-
-| 项目名称  | 描述 |
-| ----- | ----------- |
-| [racoon](http://gitlab.tools.vipshop.com/devops-team/racoon) | snmp采集器 |
-| [tango](http://gitlab.tools.vipshop.com/devops-team/devops_tools/tree/master/tango) | virgo升级工具 |
-| [ptoe](http://gitlab.tools.vipshop.com/vipcloud/app-conf-manage/tree/master/ptoe) | Puppet to Etcd转换工具
-
 ## 如何使用
 
 ### 获取本库
 
 ```
-$ cd $GOPATH/src/gitlab/gitlab.tools.vipshop.com/devops-team
+$ cd $GOPATH/src/github.com/domac
 
-$ git clone git@gitlab.tools.vipshop.com:devops-team/go-pod.git
+$ git clone git@github.com:domac/go-pod.git
 ```
 
 ### 使用前说明
@@ -63,7 +52,7 @@ package main
 
 import (
 	"fmt"
-	"gitlab.tools.vipshop.com/devops-team/go-pod/gopod"
+	"github.com/domac/go-pod/gopod"
 	"time"
 )
 
@@ -120,7 +109,7 @@ package main
 
 import (
 	"fmt"
-	"gitlab.tools.vipshop.com/devops-team/go-pod/gopod"
+	"github.com/domac/go-pod/gopod"
 	"os"
 	"runtime/pprof"
 	"time"
