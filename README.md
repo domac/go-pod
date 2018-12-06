@@ -24,7 +24,7 @@ $ git clone git@github.com:domac/go-pod.git
 典型调用方式
 
 ```go
-pod := gopod.NewPod(10) //协程池大小为10
+pod := gopod.NewPod(10) //go pods 池大小为10
 pod.Start()             //开启Pod调度
 pod.AddJob(jb)
 ```
